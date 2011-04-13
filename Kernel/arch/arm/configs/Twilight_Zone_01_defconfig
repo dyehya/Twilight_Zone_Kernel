@@ -80,7 +80,7 @@ CONFIG_NAMESPACES=y
 # CONFIG_PID_NS is not set
 # CONFIG_NET_NS is not set
 CONFIG_BLK_DEV_INITRD=y
-CONFIG_INITRAMFS_SOURCE="/home/tanimn/work/src/ec05/Twilight_Zone_Kernel/initramfs/"
+CONFIG_INITRAMFS_SOURCE="/home/tanimn/Twilight_Zone_Kernel/initramfs/"
 # CONFIG_INITRAMFS_COMPRESSION_NONE=y
 # CONFIG_INITRAMFS_COMPRESSION_GZIP is not set
 # CONFIG_INITRAMFS_COMPRESSION_BZIP2 is not set

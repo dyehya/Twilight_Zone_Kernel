@@ -4,7 +4,7 @@
 BUILD_KERNEL=y
 CLEAN=n
 # CROSS_COMPILE="/home/tanimn/x-tools/arm-2009q3/bin/arm-none-linux-gnueabi-"
-CROSS_COMPILE="/home/tanimn/x-tools/arm-2010.09/bin/arm-none-eabi-"
+CROSS_COMPILE="/home/tanimn/toolchain/arm-2010.09/bin/arm-none-eabi-"
 # CROSS_COMPILE="/home/x-tools/arm-cortex_a8-linux-gnueabi/bin/arm-cortex_a8-linux-gnueabi-"
 # CROSS_COMPILE="/home/tanimn/x-tools/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-"
 DEFCONFIG=y
@@ -14,7 +14,7 @@ PRODUCE_ZIP=n
 TARGET="Twilight_Zone_01"
 THREADS=4
 VERSION=$(date +%Y%m%d%H%M)
-TRACK=y
+TRACK=n
 TRACK_OUT="$PWD/../../../out"
 TRACK_STORE="$PWD/../../../../archives/builds"
 
